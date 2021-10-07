@@ -14,4 +14,4 @@ Here, I have trained two CNN architectures :
 As seen above it has two output branches, one predicts the coordinates of bounding boxes and other is used to predict the labels.  
 Knowing the labels helps the regressor to improve its results. As unsupervised regression is slower the cause being a naive loss function.  
 
-Code courtesy : [PyImageSearch](https://www.pyimagesearch.com/2020/10/12/multi-class-object-detection-and-bounding-box-regression-with-keras-tensorflow-and-deep-learning/)
+Tutorial : [PyImageSearch](https://www.pyimagesearch.com/2020/10/12/multi-class-object-detection-and-bounding-box-regression-with-keras-tensorflow-and-deep-learning/)
