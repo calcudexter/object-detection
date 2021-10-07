@@ -11,7 +11,6 @@ Here, I have trained two CNN architectures :
 
 ### Model Architecture  
 ![Regressor Architecture](regressor.png "Regressor")  <br/><br/>
-As seen above it has two output branches, one predicts the coordinates of bounding boxes and other is used to predict the labels.  
-Knowing the labels helps the regressor to improve its results. As unsupervised regression is slower the cause being a naive loss function.  
+The two output branches, one for classification and other for bounding box regression, improve the overall efficiency of the task cause being the use of a better loss function.  
 
 Tutorial : [PyImageSearch](https://www.pyimagesearch.com/2020/10/12/multi-class-object-detection-and-bounding-box-regression-with-keras-tensorflow-and-deep-learning/)
